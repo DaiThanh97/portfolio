@@ -1,0 +1,16 @@
+#skills .title {
+  font-weight: 700;
+}
+
+#skills .tagline {
+  font-weight: 400;
+}
+
+#skills .skill {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#skills .skill-list {
+  list-style-type: none;
+}

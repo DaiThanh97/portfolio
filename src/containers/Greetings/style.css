@@ -1,0 +1,73 @@
+.intro-item {
+  position: relative;
+}
+
+.intro-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro-img {
+  width: 100%;
+  filter: blur(6px) brightness(0.5);
+}
+
+.intro-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-name {
+  font-size: 4.6rem;
+  font-weight: 700;
+}
+
+.intro-name .intro-name__color {
+  color: #007acc !important;
+}
+
+.intro-tagline {
+  font-size: 1.8rem;
+}
+
+.intro-specialized {
+  font-size: 1.5rem;
+}
+
+.intro-specialized .role {
+  color: #007acc !important;
+  font-weight: 700;
+}
+
+.ityped-cursor {
+  font-size: 1.5rem;
+  opacity: 1;
+  color: #007acc !important;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}

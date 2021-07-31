@@ -1,0 +1,39 @@
+#about .title {
+  font-weight: 700;
+}
+
+#about .title-tagline {
+  font-weight: 600;
+}
+
+#about .description {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#about .company {
+  color: #007acc;
+}
+
+#about .tag {
+  border-radius: 10px;
+  background: #adadad4f;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+
+#about .avatar-holder {
+  border-radius: 50%;
+  background: #a8c5d8;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 10px 20px 20px 0px rgba(0, 0, 0, 0.55);
+}
+
+#about .avatar-holder img {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}

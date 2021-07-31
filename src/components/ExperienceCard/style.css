@@ -1,0 +1,12 @@
+#company-card {
+  margin: 50px 10px;
+}
+
+#company-card .card-info {
+  border-radius: 50px !important;
+}
+
+#company-card .card-header {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Augestina;
+    src: url(../../assets/fonts/Agustina.otf);
+}
+
+#nav-title{
+    font-family: Augestina;
+    text-transform: capitalize;
+}
+
+#header .nav-link-icon {
+    font-size: 1.1rem !important;
+    color: white;
+    transition: all 0.4s;
+}
+
+#header .nav-link-icon:hover {
+    cursor: pointer;
+    color: rgb(211, 211, 211);
+}
+
+.headroom--not-top {
+    background: black !important;
+}
+
